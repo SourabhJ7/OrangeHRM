@@ -1,0 +1,13 @@
+const dotenv = require('dotenv');
+
+
+const envName = process.env.TEST_ENV || 'qa';
+
+dotenv.config({path : `./env/${envName}.env`, override : true});
+
+
+module.exports = {
+    BASE_URL : process.env.BASE_URL,
+    USERNAME : process.env.USERNAME,
+    PASSWORD : process.env.PASSWORD
+}
