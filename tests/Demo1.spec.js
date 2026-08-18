@@ -25,6 +25,9 @@ test("TC_1", async({ page })=>{
 
     await page.getByText("Add Employee").click();
 
+    await page.getByPlaceholder("First Name").fill("Anuj");
+    
+
     await page.waitForTimeout(4000);
 
 
