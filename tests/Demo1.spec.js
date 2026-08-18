@@ -21,6 +21,10 @@ test("TC_1", async({ page })=>{
 
     await page.getByRole('button',{name : 'Login'}).click();
 
+    await page.getByText("PIM").click();
+
+    await page.getByText("Add Employee").click();
+
     await page.waitForTimeout(4000);
 
 
