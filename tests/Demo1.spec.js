@@ -1,7 +1,7 @@
 const env  = require('../env/env.config.js');
 const { test } = require('@playwright/test');
 
-test("TC_1", async({ page })=>{
+test("Regression", async({ page })=>{
 
     test.setTimeout(150 * 1000);
 
