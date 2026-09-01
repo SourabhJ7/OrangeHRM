@@ -12,6 +12,12 @@ module.exports = defineConfig({
         trace: 'retain-on-failure'
     },
 
+    reporter : [
+        ['list'],['allure-playwright',{
+        resultsDir : 'allure-results'
+        }]
+    ],
+
     projects: [
         {
             name: 'chromium',
