@@ -1,5 +1,5 @@
 {
-  "name": "practice",
+  "name": "31_aug_2026_orangehrm_declarative_pipeline_02",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,11 +9,11 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@playwright/test": "^1.61.1",
-    "@types/node": "^26.1.1"
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.0"
   },
   "dependencies": {
-    "@faker-js/faker": "^10.5.0",
+    "allure-playwright": "^3.11.0",
     "dotenv": "^17.4.2"
   }
 }
